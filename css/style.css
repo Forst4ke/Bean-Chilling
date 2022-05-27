@@ -2,7 +2,7 @@
 /* For the navigation bar*/
 a:link, a:visited {
   background-color: #BF8A6B;
-  color: white;
+  color: black;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
@@ -23,10 +23,9 @@ a:hover, a:active {
 
 /* everything that goes in body takes the following properties and attributes*/
 body{
-    background-image: url('https://64.media.tumblr.com/ef30ffdadf68dd49353f124db616e986/49ece6d4ba4b2e16-7c/s640x960/6a063f6848cdd7dd6087fde1c7216bec164333ee.gifv');
-    background-size: cover;
+    background-color: #6BA0BF;
     
-    
+    color:black;
     
     height: 100vh;
     padding:0;
@@ -52,7 +51,7 @@ body{
 
 img {
 	border-radius: 15px;	
-	border: 1px solid white;
+	border: 2px solid white;
 	width: 280px;
 	left: -10px;
 	top: -10px;
@@ -61,7 +60,7 @@ img {
 
 .img2 {
 	border-radius: 15px;
-	background:image('transparent.png');
+	border:1px white;
 	width: 280px;
 	left: -10px;
 	top: -10px;
@@ -84,100 +83,38 @@ border-radius: 10px;
 	 
 }
 
-.insidebody1{
-	font-family: Arial, Helvetica, sans-serif;
-	
-	color: white;
-	padding: 14px 25px;
-	
-border-radius: 10px;
-	 border: 2px solid white;
-	 background-color: green;
-	 max-width: 45vh;
-	 height: 70vh;
-	margin: auto;
-	text-align: center;
-	 
-}
-.insideBody2 {
-	font-family: Arial, Helvetica, sans-serif;
-	
-	color: white;
-	padding: 14px 25px;
-	
-border-radius: 5px;
-	 border: 2px solid white;
-	 background-color: #BF8A6B;
-	 max-width: 1000px;
-	 height: 100vh;
-	margin: auto;
-	 
-}
 
-.insidebody3 {
+.insidebody {
 	font-family: Arial, Helvetica, sans-serif;
 	
 	color: black;
 	padding: 14px 25px;
-	
-border-radius: 5px;
-	 border: 2px solid white;
-	 background-color: #BF8A6B;
-	 max-width: 2000px;
-	 height: 120vh;
+	background-color: #C4D9E5;
+	border-radius: 5px;
+	border: 2px solid white;
+	max-width: 2000px;
+	height: 120vh;
 	margin: auto;
 	 
 }
+
+
 
 nav {
 	float:auto;
 	width:80vh;
 	height:5vh;
-	background:#BF8A6B;
+	background-color: #C4D9E5;
 	padding:20px;
 	border:2px solid white;
 	border-radius: 25px;
 }
 header {
-  background-color: #BF8A6B;
+  background-color: #C4D9E5;
   padding: 10px;
   text-align: center;
   font-size: 20px;
-  color: white;
+  color: black;
   border:solid white;
 }
 
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {background-color: #ddd;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
