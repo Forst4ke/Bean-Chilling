@@ -98,7 +98,18 @@ border-radius: 10px;
 	 
 }
 
-
+mediaquery {
+	@media (max-width: 767px) {
+  // Style for devices have width <= 767px; 
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  // Style for devices have width >= 768px and <= 1023px;
+}
+@media (min-width: 1024px) {
+  // Style for devices have width >= 1024px;
+}
+	
+}
 
 nav {
 	float:auto;
@@ -118,3 +129,12 @@ header {
   border:solid white;
 }
 
+@media (max-width: 767px) {
+  // Style for devices have width <= 767px; 
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  // Style for devices have width >= 768px and <= 1023px;
+}
+@media (min-width: 1024px) {
+  // Style for devices have width >= 1024px;
+}
