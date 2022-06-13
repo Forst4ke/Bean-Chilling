@@ -51,7 +51,7 @@ body{
 
 img {
 	border-radius: 15px;	
-	border: 2px solid white;
+	border: 2px none;
 	width: 280px;
 	left: -10px;
 	top: -10px;
@@ -77,12 +77,16 @@ img {
 border-radius: 10px;
 	 border: 2px solid white;
 	 background-color: #BF8A6B;
-	 max-width:	1250px;
-	 height: 110vh;
+	 max-width:	990px;
+	 height: 90vh;
 	 margin: auto;
 	 
 }
 
+#links a:link{
+	position:absolute;
+}
+	
 
 .insidebody {
 	font-family: Arial, Helvetica, sans-serif;
@@ -99,16 +103,8 @@ border-radius: 10px;
 }
 
 mediaquery {
-	@media (max-width: 767px) {
-  // Style for devices have width <= 767px; 
-}
-@media (max-width: 1023px) and (min-width: 768px) {
-  // Style for devices have width >= 768px and <= 1023px;
-}
-@media (min-width: 1024px) {
-  // Style for devices have width >= 1024px;
-}
-	
+	max-width:767px;
+	min-width:1024px;
 }
 
 nav {
@@ -129,12 +125,12 @@ header {
   border:solid white;
 }
 
-@media (max-width: 767px) {
-  // Style for devices have width <= 767px; 
-}
-@media (max-width: 1023px) and (min-width: 768px) {
-  // Style for devices have width >= 768px and <= 1023px;
-}
-@media (min-width: 1024px) {
-  // Style for devices have width >= 1024px;
-}
+
+footer{
+	background-color: #C4D9E5;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  border:solid white;
+
