@@ -11,16 +11,12 @@
 
 </head>
 <body>
-<a href="index.html">
+<header>
+<a href="index.html" style="float: left;">
 <img src="images/purple.PNG" style="float: left;" >
 </a>
+<br><br>
 
-<br><br><br><br>
-
-
-
-
-<header>
 <h1>Apply for the job<h1>
 </header>
 
@@ -28,7 +24,6 @@
 
 
 <br>
-<div class="text">
 <nav>
 <a href="index.html">Home</a>
 <a href="profiles.html">Employee Profiles</a>
@@ -38,35 +33,42 @@
 </nav>
 
 </center>
-</div>
+
 <br><br><br>
 
 
-<div class="insideBody" >
+<form>
 &nbsp;
-
 <center>
-<tr> <td> <h4>Email Address:<h4> </td> <td> <input type=”text” email=””>  </td>
+	<tr> <td> <h4>Email Address:<h4> </td> <td> <input type=”text”>  </td>
 &nbsp;
 
-<tr> <td> <h4>First Name:<h4> </td> <td> <input type=”text” name=””> </td> 
+	<tr> <td> <h4>First Name:<h4> </td> <td> <input type=”text” name=””> </td> 
 &nbsp;
 
-<tr> <td> <h4>last Name:<h4> </td> <td> <input type=”text” name=””> </td>
-<br><br><br>
-
-<h5>Upload File Here<h5>
-<input type="file">
+	<tr> <td> <h4>last Name:<h4> </td> <td> <input type=”text” name=””> </td>
+	<br><br><br>
+	<select>
+	<option value="Select Job">Select a job</option>
+	<option value="Front-End">Front-End</option>
+	<option value="Back-End">Back-End</option>
+	<option value="Full-Stack">Full-Stack</option>
+	</select>
+	<h5>Upload CV Here<h5>
+	<input type="file">
 &nbsp;
+
 </center>
-<style="float:right;">
-<button type="button" onclick="alert('Submitted!')">Submit </button>
+
+<button type="submit" onclick="alert('Submitted!')" style="float:right;">Submit </button>
 &nbsp;
 
-
-  
-</div>
+</form>
 <br><br><br>
+
+
+
+
 <!--
 @media (max-width: 767px) {
   // Style for devices have width <= 767px; 
@@ -78,16 +80,11 @@
   // Style for devices have width >= 1024px;
 }
 -->
-<br><br>
-
 <footer>
-
-<p> Hola</p>
-
+<p><small>Hot Beans ©2022 <br>
+All Rights Reserved</small>
+	
 </footer>
-
-
-
 
 <!--
 <form action="index.html">
